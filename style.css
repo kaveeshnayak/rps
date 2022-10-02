@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+#header{
+    display:flex;
+    flex-direction:row;
+    height: 20vh;
+    width: 50vw;
+    border: solid 5px brown;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Passions Conflict', cursive;
+    font-size: 40px;
+    color:whitesmoke;
+}
