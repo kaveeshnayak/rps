@@ -148,14 +148,14 @@ let round_winner=function(){
             document.getElementById("scissors-user").disabled=true;
             document.getElementById("playagain").style.visibility="visible"
             if(totalcomp>totaluser){
-                document.getElementById("winner").innerHTML="You win the game"
+                document.getElementById("winner").innerHTML="Computer wins the game"
                 
             }
-            if(totalcomp=totaluser){
+            if(totalcomp==totaluser){
                 document.getElementById("winner").innerHTML="The game is tied"
             }
             if (totalcomp<totaluser){
-                document.getElementById("winner").innerHTML="Computer wins the game"
+                document.getElementById("winner").innerHTML="You win the game"
             }
         }
 
@@ -171,14 +171,14 @@ let round_winner=function(){
             document.getElementById("scissors-user").disabled=true;
             document.getElementById("playagain").style.visibility="visible"
             if(totalcomp>totaluser){
-                document.getElementById("winner").innerHTML="You win the game"
+                document.getElementById("winner").innerHTML="Computer wins the game"
          
             }
-            if(totalcomp=totaluser){
+            if(totalcomp==totaluser){
                 document.getElementById("winner").innerHTML="The game is tied"
             }
             if (totalcomp<totaluser){
-                document.getElementById("winner").innerHTML="Computer wins the game"
+                document.getElementById("winner").innerHTML="You win the game"
             }
         }
       }
