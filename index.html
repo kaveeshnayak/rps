@@ -1,15 +1,33 @@
 <html>
     <head>
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body style="background-color:black">
         <div id="header">
-            <h1>Rock, Paper, Scissors</h1>
+            <h2>Rock, Paper, Scissors</h2>
         </div>
         <div id="meat">
-            
+            <div class="leftmeat">
+                <div id="user-score"></div>
+                <div><input type="image" src="/images/stone.png" style="border: none; " height="80" width="80" id="rock-user"/> </div>
+                <div><input type="image" src="/images/paper.png" style="border: none; " height="80" width="80" id="paper-user"/> </div>
+                <div><input type="image" src="/images/scissors.png" style="border: none; " height="80" width="80" id="scissors-user"/> </div>
+                <div id="user-select" style="font-size: 25px;"></div>
+            </div>
+
+            <div class="rightmeat">
+                <div id="computer-score"></div>
+                <div><input type="image" src="/images/stone.png" style="border: none;" height="80" width="80" id="rock-comp"/> </div>
+                <div><input type="image" src="/images/paper.png" style="border: none;" height="80" width="80" id="paper-comp"/> </div>
+                <div><input type="image" src="/images/scissors.png" style="border: none;" height="80" width="80" id="scissors-comp"/> </div>
+                <div id="computer-select" style="font-size: 25px;"></div>
+            </div>
         </div>
-        <div id="footer"></div>
+        <div id="footer">
+            <div id="round-score"></div>
+            <div id="winner"></div>
+            <div id="play-again"><button type="button" name="myButton" id="playagain">Play Again</button></div>                
+        </div>
     </body>
 </html>

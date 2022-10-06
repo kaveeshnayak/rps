@@ -1,14 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Passions+Conflict&display=swap');
 #header{
     display:flex;
     flex-direction:row;
-    height: 20vh;
+    height: 15vh;
     width: 50vw;
-    border: solid 5px brown;
+    
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    font-family: 'Passions Conflict', cursive;
+    font-family: 'Oswald', sans-serif;
     font-size: 40px;
     color:whitesmoke;
+}
+#meat{
+    display:flex;
+    flex-direction:row;
+    height: 60vh;
+    width: 80vw;
+    
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color:whitesmoke;
+    margin-top: 1px;
+    gap: 10px;
+}
+.leftmeat{
+
+    width:38vw;
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.rightmeat{
+    
+    width:38vw;
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+#footer{
+    display:flex;
+    flex-direction: column;
+    
+    gap:2px;
+    height: 18vh;
+    width: 50vw;
+    margin:0 auto;
+}
+#round-score{
+  font-size: larger;
+    color:white;
+    height:6vh;
+    margin:0 auto;
+    font-family: 'Oswald', sans-serif;
+}
+#winner{
+    font-size: larger;
+    color:white;
+    height:6vh;
+    margin:0 auto;
+    font-family: 'Oswald', sans-serif;
+}
+#play-again{
+    font-size: larger;
+    color:white;
+    height:6vh;
+    margin:0 auto;
+    font-family: 'Oswald', sans-serif;
+}
+button {
+    color: #ffffff;
+    background-color: #e32400;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    height:5vh;
+    width:10vw;
+    margin:0 auto;
+}
+button:hover {
+    color: #ff2600;
+    background-color: #ffffff;
 }
